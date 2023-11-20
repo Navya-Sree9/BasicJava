@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class dollortoruppe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter number of dollars your earning");
+		int dollar = sc.nextInt();
+		int rupees = dollar*81;
+		System.out.println("The rupees in India");
+		
+		System.out.println(rupees);
+		
+	}
+
+}
